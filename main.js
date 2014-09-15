@@ -28,3 +28,44 @@ for(var i = 0; i<numberOfVictims; i++) {
 
 };
 
+var numberOfVolunteers = prompt("How many disaster volunteers are you entering?");
+
+var volunteerNameArray = [];
+
+var volunteerPhoneArray = [];
+
+var volunteerStreetArray = [];
+
+for(var i = 0; i<numberOfVolunteers; i++) {
+	
+	// volunteer Name
+	var volunteerName = prompt("What's the volunteer's name?");
+	console.log("volunteerName:", volunteerName);
+	volunteerNameArray.push(volunteerName);
+	console.log("volunteerNameArray:", volunteerNameArray);
+	
+	// volunteer Phone
+	var volunteerPhone = prompt("What's the volunteer's phone number?");
+	console.log("volunteerPhone:", volunteerPhone);
+	volunteerPhoneArray.push(volunteerPhone);
+	console.log("volunteerPhoneArray", volunteerPhoneArray);
+	
+	// volunteer Street
+	var volunteerStreet = prompt("What street does the volunteer live on?");
+	console.log("volunteerStreet:", volunteerStreet);
+	volunteerStreetArray.push(volunteerStreet);
+	console.log("volunteerStreetArray:", volunteerStreetArray);
+
+};
+
+
+alert("There are " + numberOfVictims + " victims, and there are " + numberOfVolunteers + " volunteers." + "\n"+ "The victims names are " + victimNameArray + " and the volunteers names are " + volunteerNameArray + ".");
+
+
+
+
+
+
+
+
+
