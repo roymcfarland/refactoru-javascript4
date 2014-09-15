@@ -38,19 +38,19 @@ var volunteerStreetArray = [];
 
 for(var i = 0; i<numberOfVolunteers; i++) {
 	
-	// volunteer Name
+	// Volunteer Name
 	var volunteerName = prompt("What's the volunteer's name?");
 	console.log("volunteerName:", volunteerName);
 	volunteerNameArray.push(volunteerName);
 	console.log("volunteerNameArray:", volunteerNameArray);
 	
-	// volunteer Phone
+	// Volunteer Phone
 	var volunteerPhone = prompt("What's the volunteer's phone number?");
 	console.log("volunteerPhone:", volunteerPhone);
 	volunteerPhoneArray.push(volunteerPhone);
 	console.log("volunteerPhoneArray", volunteerPhoneArray);
 	
-	// volunteer Street
+	// Volunteer Street
 	var volunteerStreet = prompt("What street does the volunteer live on?");
 	console.log("volunteerStreet:", volunteerStreet);
 	volunteerStreetArray.push(volunteerStreet);
